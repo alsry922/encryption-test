@@ -1,0 +1,7 @@
+extends base.pug
+
+block content
+  form(method='post')
+    input(name='id' type="text" placeholder='아이디' required)
+    input(name='password' type="text" placeholder='비밀번호' required)
+    input(type='submit' value='회원가입')

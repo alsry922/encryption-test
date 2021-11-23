@@ -1,0 +1,7 @@
+extends base.pug
+
+block content
+  form(method='post')
+    input(name='fileName' type="text" placeholder='아이디' required)
+    input(name='hashingFileName' type='text' placeholder='파일 해시 값' required)
+    input(type='submit' value='변조 확인')
